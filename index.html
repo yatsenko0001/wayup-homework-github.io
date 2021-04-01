@@ -5,13 +5,11 @@
 	<title>Document</title>
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-<link
-    rel="stylesheet"
+<link  rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="js/main.js">
-
+	
 </head>
 <body>
 	<header id="header" class="header">
@@ -42,26 +40,26 @@
 			<h2 class="section-title"> Что меня ждёт в переди</h2>
 		<div class="words">
 			<div class="word">
-		<h3 class="word-title">
+		<h3 class="word-title wow animated">
 			Свободное время
 		</h3>
-		<p class="word-text">
+		<p class="word-text wow animated">
 			Мне нужно свободное время на семью и самое настоящее
 		</p>
 	</div>
 		<div class="word2">
-		<h3 class="word-title">
+		<h3 class="word-title wow animated">
 			Яркие путешествия
 		</h3>
-		<p class="word-text">
+		<p class="word-text wow animated">
 			Работать откуда угодно - что может быть лучше?
 		</p>
 	</div>
 		<div class="word3">
-		<h3 class="word-title">
+		<h3 class="word-title wow animated">
 			Создание ценности
 		</h3>
-		<p class="word-text">
+		<p class="word-text wow animated">
 			Нет ничего сильнее, чем жить не просто так, создавая ценность
 		</p>
 	   </div>
@@ -70,7 +68,7 @@
 	  
 	   <section id="mail" class="mail">
 		<div class="container">
-	<h2 class="section-title1"> Форма заказа билета в будущее</h2>		
+	<h2 class="section-title1 wow animated"> Форма заказа билета в будущее</h2>		
 		<form action="#" class="form">
 		    <div class="inputs">
 			<input type="text" placeholder="Введите свое Имя" name="Имя" value=""class="input"
@@ -97,7 +95,11 @@
                 </p>
 				</div>
 			</footer>
-			<script type="text/javascript"></script>
-			<script src="js/main.js"></script>
 			<script src="js/jquery-3.6.0.min.js"></script>
+			<script src="js/main.js"></script>
+			<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+</body>
 </html>

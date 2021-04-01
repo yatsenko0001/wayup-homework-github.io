@@ -14,12 +14,28 @@ btn.onclick = function () {
 
 $(function () { 
 $(window).scroll(function() {
-	$('word3').each(function(){
+	$('.word-text').each(function(){
 		var imagePos = $(this).offest().top;
 
 		var topOfWindow = $(window).scrollTop();
 		if (imagePos < topOfWindow+650) {
-			$(this).addClass("fadeInLet");
+			$(this).addClass("bounceInLeft");
+		}
+	});
+});
+
+});
+
+
+
+$(function () { 
+$(window).scroll(function() {
+	$('.word-title').each(function(){
+		var imagePos = $(this).offest().top;
+
+		var topOfWindow = $(window).scrollTop();
+		if (imagePos < topOfWindow+650) {
+			$(this).addClass("bounceInDown");
 		}
 	});
 });
